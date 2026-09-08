@@ -1,0 +1,61 @@
+2026-09-07 23:18:07,582:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-07 23:18:07,582:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-07 23:18:07,582:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-07 23:18:07,582:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-07 23:18:08,304:INFO:Initializing load_model()
+2026-09-07 23:18:08,304:INFO:load_model(model_name=/Users/mabelpalape/Dropbox/Mac (3)/Downloads/modelo-titanic/modelo/modelo_supervivencia_titanic, platform=None, authentication=None, verbose=True)
+2026-09-07 23:18:08,433:WARNING:/Users/mabelpalape/Dropbox/Mac (3)/Downloads/modelo-titanic/.venv/lib/python3.12/site-packages/pycaret/internal/pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '26.2.1', 'setuptools': '84.0.0', 'pycaret': '3.3.2', 'IPython': '9.17.1', 'ipywidgets': '8.1.9', 'tqdm': '4.70.0', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.6', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '3.4.0', 'imblearn': '0.14.2', 'category_encoders': '2.7.0', 'lightgbm': '4.7.0', 'numba': '0.67.0', 'requests': '2.34.2', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '6.9.0', 'plotly-resampler': 'Not installed', 'kaleido': '1.4.0', 'schemdraw': '0.15', 'statsmodels': '0.15.0', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '7.2.2', 'markupsafe': '3.0.3', 'pickle5': 'Not installed', 'cloudpickle': '3.1.2', 'deprecation': '2.1.0', 'xxhash': '4.0.1', 'wurlitzer': '3.1.1'}, 'python': {'version': '3.12.7', 'machine': 'arm64'}}
+pickle: {'deps_info': {'pip': '24.2', 'setuptools': '75.1.0', 'pycaret': '3.3.2', 'IPython': '8.25.0', 'ipywidgets': '7.7.2', 'tqdm': '4.70.0', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.6', 'scipy': '1.11.4', 'joblib': '1.2.0', 'sklearn': '1.3.0', 'pyod': '3.4.0', 'imblearn': '0.14.2', 'category_encoders': '2.7.0', 'lightgbm': '4.7.0', 'numba': '0.67.0', 'requests': '2.31.0', 'matplotlib': '3.7.2', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.9.0', 'plotly-resampler': 'Not installed', 'kaleido': '1.4.0', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.0', 'markupsafe': '3.0.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '4.0.1', 'wurlitzer': '3.1.1'}, 'python': {'version': '3.11.10', 'machine': 'aarch64'}}
+  warnings.warn(
+
+2026-09-07 23:18:43,378:INFO:Initializing predict_model()
+2026-09-07 23:18:43,378:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x28f0644a0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['PassengerId', 'Pclass', 'Age',
+                                             'SibSp', 'Parch', 'Fare'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Name', 'Sex', 'Ticket',
+                                             'Embarked'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWra...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Embarked'],
+                                    transformer=OneHotEncoder(cols=['Embarked'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['Name', 'Ticket'],
+                                    transformer=TargetEncoder(cols=['Name',
+                                                                    'Ticket'],
+                                                              handle_missing='return_nan'))),
+                ('actual_estimator',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x28f206ac0>)
+2026-09-07 23:18:43,378:INFO:Checking exceptions
+2026-09-07 23:18:43,378:INFO:Preloading libraries
+2026-09-07 23:18:43,379:INFO:Set up data.
+2026-09-07 23:18:43,384:INFO:Set up index.
+2026-09-08 00:09:43,841:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-08 00:09:43,842:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-08 00:09:43,842:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-08 00:09:43,842:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-08 00:09:44,711:INFO:Initializing load_model()
+2026-09-08 00:09:44,711:INFO:load_model(model_name=modelo/modelo_supervivencia_titanic, platform=None, authentication=None, verbose=True)
+2026-09-08 00:09:44,732:WARNING:/Users/mabelpalape/Dropbox/Mac (3)/Downloads/modelo-titanic/.venv/lib/python3.12/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-09-08 00:09:44,797:WARNING:/Users/mabelpalape/Dropbox/Mac (3)/Downloads/modelo-titanic/.venv/lib/python3.12/site-packages/pycaret/internal/pipeline.py:148: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '26.2.1', 'setuptools': '84.0.0', 'pycaret': '3.3.2', 'IPython': '9.17.1', 'ipywidgets': '8.1.9', 'tqdm': '4.70.0', 'numpy': '1.26.4', 'pandas': '2.1.4', 'jinja2': '3.1.6', 'scipy': '1.11.4', 'joblib': '1.3.2', 'sklearn': '1.4.2', 'pyod': '3.4.0', 'imblearn': '0.14.2', 'category_encoders': '2.7.0', 'lightgbm': '4.7.0', 'numba': '0.67.0', 'requests': '2.34.2', 'matplotlib': '3.7.5', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '6.9.0', 'plotly-resampler': 'Not installed', 'kaleido': '1.4.0', 'schemdraw': '0.15', 'statsmodels': '0.15.0', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '7.2.2', 'markupsafe': '3.0.3', 'pickle5': 'Not installed', 'cloudpickle': '3.1.2', 'deprecation': '2.1.0', 'xxhash': '4.0.1', 'wurlitzer': '3.1.1'}, 'python': {'version': '3.12.7', 'machine': 'arm64'}}
+pickle: {'deps_info': {'pip': '24.2', 'setuptools': '75.1.0', 'pycaret': '3.3.2', 'IPython': '8.25.0', 'ipywidgets': '7.7.2', 'tqdm': '4.70.0', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.6', 'scipy': '1.11.4', 'joblib': '1.2.0', 'sklearn': '1.3.0', 'pyod': '3.4.0', 'imblearn': '0.14.2', 'category_encoders': '2.7.0', 'lightgbm': '4.7.0', 'numba': '0.67.0', 'requests': '2.31.0', 'matplotlib': '3.7.2', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.9.0', 'plotly-resampler': 'Not installed', 'kaleido': '1.4.0', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.26.0', 'tbats': '1.1.3', 'pmdarima': '2.0.4', 'psutil': '5.9.0', 'markupsafe': '3.0.3', 'pickle5': 'Not installed', 'cloudpickle': '3.0.0', 'deprecation': '2.1.0', 'xxhash': '4.0.1', 'wurlitzer': '3.1.1'}, 'python': {'version': '3.11.10', 'machine': 'aarch64'}}
+  warnings.warn(
+
