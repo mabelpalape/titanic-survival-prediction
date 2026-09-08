@@ -1,0 +1,20 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Sistema operativo y editores
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit local config
+.streamlit/config.toml
